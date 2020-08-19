@@ -1,0 +1,13 @@
+ls -l(list)
+ls /etc/wpa_supplicant
+sudo cat /etc/wpa_supplicant/wpa_supplicant.conf
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+#terminal for wifi settings
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+    ssid="NETWORK-NAME"
+    psk="NETWORK-PASSWORD"
+}
