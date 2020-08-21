@@ -1,0 +1,9 @@
+ We will install xdrp and in order to install xdrp, we shall install tightvncserver package
+ sudo apt install tightvncserver -y
+Once that is complete, we can install xrdp
+sudo apt install xdrp -y
+We also need samba so we can access the RPI hostname
+sudo apt install -y samba
+
+Goto WIndows- Remote desktop connection and type your rpi IP address and name
+
