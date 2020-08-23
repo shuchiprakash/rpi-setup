@@ -7,3 +7,21 @@ sudo apt install -y samba
 
 Goto WIndows- Remote desktop connection and type your rpi IP address and name
 
+
+Samba- file sharing between windows and linux
+rdp- protocol which windows specific; windows native- login on windows to login to other windows/linux GUI
+vnc-separate protocol( client is required on windows because it is not windows native to access linux)
+sudo apt install xdrp -y
+sudo apt install tightvncserver -y
+
+Check currently background running process
+ps(para system)
+ps aux (to get list of running process)
+ps aux | grep rdp(grep command powerful filter)
+ps aux | grep -i rdp (for case insensitive, add -i)
+
+netstat antp ( on that system what all ports are open)
+ netstat -antp | grep :5500   (to filter we have pipe it with grep(filter))
+ 
+ Log file is /home/pi/.vnc/raspberrypi:1.log
+
