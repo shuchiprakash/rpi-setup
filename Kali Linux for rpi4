@@ -1,3 +1,17 @@
 https://null-byte.wonderhowto.com/how-to/build-beginner-hacking-kit-with-raspberry-pi-3-model-b-0184144/
 https://null-byte.wonderhowto.com/how-to/load-kali-linux-raspberry-pi-4-for-ultimate-miniature-hacking-station-0201737/
 https://whitedome.com.au/re4son/sticky-fingers-kali-pi-pre-installed-image/
+
+
+sudo  apt update ( to create repositories for links)
+sudo apt-get openvpn
+ps aux | grep -i openvpn    ( to check if its running which will not most likely)
+
+ifconfig does not work but, ip addr works to check ip address
+to start openvpn
+ Use your OpenVPN file with the following command: sudo openvpn /path-to-file/file-name.ovpn
+Find your path------ by saving configuration file
+
+you get openvpn client and then you request openvpn server- You will need to request you to take access
+
+To changes the passwords on Kali linux passwords
