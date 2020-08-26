@@ -1,7 +1,7 @@
  We will install xdrp and in order to install xdrp, we shall install tightvncserver package
  sudo apt install tightvncserver -y
 Once that is complete, we can install xrdp
-sudo apt install xdrp -y
+sudo apt-get install xdrp -y
 We also need samba so we can access the RPI hostname
 sudo apt install -y samba
 
@@ -11,7 +11,10 @@ Goto WIndows- Remote desktop connection and type your rpi IP address and name
 Samba- file sharing between windows and linux
 rdp- protocol which windows specific; windows native- login on windows to login to other windows/linux GUI
 vnc-separate protocol( client is required on windows because it is not windows native to access linux)
-sudo apt install xdrp -y
+sudo apt-get install xrdp
+sudo service xrdp on( to turn on the remote desktop)
+sudo service xrdp start
+
 sudo apt install tightvncserver -y
 
 Check currently background running process
