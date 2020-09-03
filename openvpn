@@ -1,0 +1,4 @@
+openvpn start
+
+sudo apt install openvpn
+sudo openvpn /home/pi/Downloads/testmyass.ovpn
